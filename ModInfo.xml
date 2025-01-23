@@ -1,0 +1,6 @@
+<mod displayName="Tutorial Mod" unique="Invincibility" description="Tutorial Mod Example Description."  installerSystemVersion="1.0.1.2" hasCustomInstaller="true" isExperimental="false" dllsBuild="2.5.290">
+	<remove>Invincibility.dll</remove>
+
+	<prerequisite>Invincibility.dll</prerequisite>
+
+</mod>
