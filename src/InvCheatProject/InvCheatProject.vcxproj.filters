@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="InvCheatProject">
+      <UniqueIdentifier>{3880d018-2395-4502-abfe-4b83e0817aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{d62ad12d-69d8-4933-8342-03043c9adc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InvCheatProject\Cheats">
+      <UniqueIdentifier>{0961c4bd-0870-44e9-8f72-7761be6034f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InvCheatProject\SimulatorSystems">
+      <UniqueIdentifier>{2236e670-5321-451e-8e66-9e681d7298d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="inv.h">
+      <Filter>InvCheatProject\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="invincibilitySystem.h">
+      <Filter>InvCheatProject\SimulatorSystems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>InvCheatProject</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="inv.cpp">
+      <Filter>InvCheatProject\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="invincibilitySystem.cpp">
+      <Filter>InvCheatProject\SimulatorSystems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SdkPathConfig.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Internal</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
